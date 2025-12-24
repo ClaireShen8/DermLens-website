@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DermLens: Dataset</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/group.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header d-flex flex-column flex-md-row justify-content-md-between">
+        <a href="index.html" class="">
+          <img src="img/logo.svg" alt="DermLens" id="logo">
+        </a>
+        <ul class="nav nav-pills justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Project Description</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="dataset.html">Dataset</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="people.html">People</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="jumbotron">
+        <p>
+          DermLens Dataset aggregates dermoscopy, clinical photography, and patient metadata with
+          biopsy-confirmed labels. Access is granted for research under a data use agreement.
+        </p>
+      </div>
+
+      <section class="section-card">
+        <h2>Overview</h2>
+        <p>
+          The dataset includes multiple acquisition devices, longitudinal follow-ups, and clinician notes
+          for contextual diagnosis. We prioritize balanced representation across age, sex, and skin tone.
+        </p>
+        <ul class="list-unstyled">
+          <li><b>Images:</b> 58,000 dermoscopy + 22,000 clinical photos</li>
+          <li><b>Labels:</b> 14 primary diagnostic categories, 62 subtypes</li>
+          <li><b>Splits:</b> Patient-level train/val/test with temporal holdout</li>
+        </ul>
+      </section>
+
+      <section class="section-card">
+        <h2>Access</h2>
+        <p>
+          Submit a request describing your study, IRB approval (if applicable), and data security plan.
+          We provide a standardized DUA and a model card with recommended evaluation protocols.
+        </p>
+        <p>
+          Contact: <a href="mailto:dermlens@research.org">dermlens@research.org</a>
+        </p>
+      </section>
+
+      <div class="footer">
+        <p>
+          <a href="publications.html">Related Publications</a>
+        </p>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/srcset-polyfill.js"></script>
+  </body>
+</html>
