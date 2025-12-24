@@ -98,6 +98,18 @@ h2 {
   padding-bottom: 0;
 }
 
+.pub-item-wide {
+  grid-template-columns: 1fr;
+}
+
+.pub-item-wide .pub-content {
+  width: 100%;
+}
+
+.pub-item-wide .pub-kicker {
+  white-space: nowrap;
+}
+
 .pub-image-placeholder {
   height: 130px;
   border-radius: 10px;
@@ -117,6 +129,15 @@ h2 {
   margin-bottom: 0.4rem;
 }
 
+.pub-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}
+
 .pub-authors {
   margin-bottom: 0.35rem;
   color: var(--muted);
@@ -130,6 +151,17 @@ h2 {
 .pub-link {
   color: var(--accent);
   font-weight: 600;
+}
+
+.pub-image-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.pub-image-row .pub-image-placeholder {
+  height: 220px;
 }
 
 .footer {
@@ -158,5 +190,13 @@ h2 {
 
   .pub-image-placeholder {
     height: 180px;
+  }
+
+  .pub-image-row {
+    grid-template-columns: 1fr;
+  }
+
+  .pub-image-row .pub-image-placeholder {
+    height: 200px;
   }
 }
