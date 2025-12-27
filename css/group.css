@@ -101,6 +101,46 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+.section-card h2 {
+  margin-bottom: 2.5rem;
+}
+
+.people-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.people-list li {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.person-photo {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 1px solid var(--border);
+}
+
+.person-photo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-soft);
+  color: var(--muted);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.person-details {
+  line-height: 1.4;
+}
+
 .pub-list {
   display: flex;
   flex-direction: column;
