@@ -129,6 +129,10 @@ h2 {
   border: 1px solid var(--border);
   background: #fff;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .pub-image {
@@ -136,6 +140,7 @@ h2 {
   height: 100%;
   object-fit: cover;
   display: block;
+  align-self: stretch;
 }
 
 .pub-title {
