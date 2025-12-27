@@ -47,6 +47,21 @@ body {
   box-shadow: 0 10px 25px rgba(27, 39, 51, 0.08);
 }
 
+.jumbotron-images {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.jumbotron .pub-image-frame {
+  height: auto;
+  aspect-ratio: 4 / 3;
+}
+
+.jumbotron .pub-image {
+  object-fit: contain;
+}
+
 h2 {
   margin-top: 1.5rem;
   font-size: 1.6rem;
@@ -112,7 +127,7 @@ h2 {
   width: 100%;
   border-radius: 12px;
   border: 1px solid var(--border);
-  background: var(--accent-soft);
+  background: #fff;
   overflow: hidden;
 }
 
@@ -184,6 +199,10 @@ h2 {
   }
 
   .pub-item {
+    grid-template-columns: 1fr;
+  }
+
+  .jumbotron-images {
     grid-template-columns: 1fr;
   }
 
