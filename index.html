@@ -40,20 +40,30 @@
 
       <div class="jumbotron">
         <p>
-          <b>DermLens</b> is a computer vision research project developed at
+          <b>DermLens</b> is a computer vision research project of
           <a href="https://www.shendermatology.com/" target="_blank" rel="noopener noreferrer">Shen Dermatology</a>
-          (Temecula, California) focused on quantifying
-          visual markers of treatment progression during Shen Cocktail, a combination topical immunotherapy used to treat basal cell carcinoma
-          and squamous cell carcinoma.
+          (Temecula, California) focused on developing quantitative tools for monitoring treatment response during non-surgical skin cancer therapy.
         </p>
         <p>
-          The project aims to develop deep learning-based image analysis methods that assist dermatologists in longitudinal treatment monitoring by
-          measuring and statistically analyzing macroscopic visual biomarkers associated with tissue response, including inflammation, necrosis,
-          and regrowth, as observed in clinical photographs collected throughout therapy.
+          The foundation of this work is SC-8000, a longitudinal clinical imaging dataset comprising over 8,000 photographs collected between 2008
+          and the present. The dataset documents patients before and throughout treatment with the Shen Cocktail, a combination topical immunotherapy
+          for basal cell carcinoma (BCC) and squamous cell carcinoma (SCC). Images are captured at baseline and at regular intervals during a typical
+          six-week treatment course.
         </p>
         <p>
-          By transforming qualitative clinical observations into reproducible quantitative metrics, DermLens seeks to support objective treatment
-          assessment and improve understanding of visual patterns associated with successful topical immunotherapy.
+          Unlike many dermatology datasets designed for lesion diagnosis, SC-8000 is purpose-built for treatment monitoring. All images represent a
+          single therapeutic protocol administered under a consistent clinical framework, enabling detailed study of longitudinal visual biomarkers,
+          particularly erythema (treatment-induced redness) and its progression over time.
+        </p>
+        <p>
+          The goal of DermLens is to develop interpretable, clinically meaningful computer vision methods that quantify changes in erythema and
+          related visual features during treatment. Rather than classifying lesions, our work focuses on measuring within-patient change over time
+          and integrating image-derived signals with patient-reported symptoms to support clinical decision-making during follow-up.
+        </p>
+        <p>
+          We believe SC-8000 is unique in its scale, duration, and longitudinal consistency, representing more than 15 years of real-world clinical
+          practice using a single non-surgical therapy. DermLens welcomes collaboration with medical image computing and machine learning researchers
+          interested in longitudinal analysis, color-based biomarkers, and clinically grounded computer vision methods for treatment monitoring.
         </p>
       </div>
 
