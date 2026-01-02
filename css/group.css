@@ -105,6 +105,19 @@ h2 {
   margin-bottom: 2.5rem;
 }
 
+.section-card p {
+  line-height: 1.6;
+  margin-bottom: 1.1rem;
+}
+
+.section-card p:last-child {
+  margin-bottom: 0;
+}
+
+.mobile-break {
+  display: none;
+}
+
 .people-list {
   display: flex;
   flex-direction: column;
@@ -242,6 +255,16 @@ h2 {
 @media (max-width: 768px) {
   .header {
     gap: 1rem;
+  }
+
+  .section-card p {
+    font-size: 1.02rem;
+    line-height: 1.65;
+  }
+
+  .mobile-break {
+    display: block;
+    height: 0.45rem;
   }
 
   .people-list li {
