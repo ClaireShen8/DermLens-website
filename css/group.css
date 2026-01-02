@@ -118,6 +118,10 @@ h2 {
   display: none;
 }
 
+.role-dash {
+  display: inline;
+}
+
 .people-list {
   display: flex;
   flex-direction: column;
@@ -267,6 +271,10 @@ h2 {
   .mobile-break {
     display: block;
     height: 0.45rem;
+  }
+
+  .role-dash {
+    display: none;
   }
 
   .people-list li {
