@@ -152,6 +152,8 @@ h2 {
 
 .person-details {
   line-height: 1.4;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .pub-list {
@@ -276,6 +278,11 @@ h2 {
   .person-photo {
     width: 84px;
     height: 84px;
+  }
+
+  .person-details {
+    font-size: 0.98rem;
+    line-height: 1.5;
   }
 
   .shortnews {
